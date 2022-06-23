@@ -1,5 +1,6 @@
 import { FaPizzaSlice, FaHamburger } from 'react-icons/fa'
-import { GiNoodles, GiChopsticks } from 'react-icons/gi'
+import { GiNoodles } from 'react-icons/gi'
+import { MdFoodBank } from 'react-icons/md'
 import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
 
@@ -18,9 +19,9 @@ function Category() {
         <GiNoodles />
         <h4>Thai</h4>
       </SLink>
-      <SLink to={'/recipe-app/cuisine/Japanese'}>
-        <GiChopsticks />
-        <h4>Japanese</h4>
+      <SLink to={'/recipe-app/cuisine/Caribbean'}>
+        <MdFoodBank />
+        <h4>Caribbean</h4>
       </SLink>
     </List>
   )
